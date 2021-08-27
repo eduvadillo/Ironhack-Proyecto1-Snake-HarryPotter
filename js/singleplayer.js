@@ -21,9 +21,11 @@ const sinParedesBox = document.querySelector("#elegirSinParedes");
 
 sinParedesBox.addEventListener("change", function (e) {
   if (sinParedesBox.checked) {
-    gameBoy.href = "/html/gameboyBarcaSinParedes.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/html/gameboyBarcaSinParedes.html";
   } else {
-    gameBoy.href = "/html/gameboyBarca.html";
+    gameBoy.href =
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/html/gameboyBarca.html";
   }
 });
 
