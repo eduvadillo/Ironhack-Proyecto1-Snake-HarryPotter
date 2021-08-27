@@ -6,7 +6,7 @@ body {
 
 body::after {
   content: "";
-  background: url(/images/casasvectores.png);
+  background: url(https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/images/casasvectores.png);
   background-size: 100%;
   height: 113vh;
   opacity: 0.5;

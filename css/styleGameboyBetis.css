@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-image: url(../images/QuidditchWorldCup.png);
+  background-image: url(https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/images/QuidditchWorldCup.png);
   background-size: 100%;
 }
 .title {

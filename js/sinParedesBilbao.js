@@ -34,7 +34,8 @@ window.onload = () => {
     let appleX = 5;
     let appleY = 5;
     const pelota = new Image();
-    pelota.src = "../images/Snitch_dorada.png";
+    pelota.src =
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/images/Snitch_dorada.png";
 
     let pearX = 15;
     let pearY = 15;
@@ -57,8 +58,12 @@ window.onload = () => {
 
     //sounds
 
-    const soundGameOver = new Audio("../audio/gameOver2.mp3");
-    const comerManzana = new Audio("../audio/comerManzana.mp3");
+    const soundGameOver = new Audio(
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/audio/gameOver2.mp3"
+    );
+    const comerManzana = new Audio(
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/audio/comerManzana.mp3"
+    );
 
     //Funcion principal jugador
     function drawGame() {

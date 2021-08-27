@@ -50,9 +50,15 @@ barraDiferencia.appendChild(nuevoDiv2);
 */
 
     //Audios
-    const gameOverSound = new Audio("../audio/gameOver2.mp3");
-    const comerManzana = new Audio("../audio/comerManzana.mp3");
-    const aplausosAudio = new Audio("../audio/applause.wav");
+    const gameOverSound = new Audio(
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/audio/gameOver2.mp3"
+    );
+    const comerManzana = new Audio(
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/audio/comerManzana.mp3"
+    );
+    const aplausosAudio = new Audio(
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/audio/applause.wav"
+    );
     //constructor  canvas jugador 1
     class SnakePart {
       constructor(x, y) {
@@ -80,7 +86,8 @@ barraDiferencia.appendChild(nuevoDiv2);
     let appleX = 5;
     let appleY = 5;
     const pelota = new Image();
-    pelota.src = "../images/Snitch_dorada.png";
+    pelota.src =
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/images/Snitch_dorada.png";
 
     let xVelocity = 0;
     let yVelocity = 0;
@@ -106,7 +113,8 @@ barraDiferencia.appendChild(nuevoDiv2);
     let appleX2 = 5;
     let appleY2 = 5;
     const pelota2 = new Image();
-    pelota2.src = "../images/Snitch_dorada.png";
+    pelota2.src =
+      "https://eduvadillo.github.io/Ironhack-Proyecto1-Snake-HarryPotter/images/Snitch_dorada.png";
 
     let xVelocity2 = 0;
     let yVelocity2 = 0;
