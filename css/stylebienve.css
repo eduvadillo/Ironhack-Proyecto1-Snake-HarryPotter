@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&display=swap");
+
+body {
+  background-size: cover;
+}
+
+body::after {
+  content: "";
+  background: url(/images/casasvectores.png);
+  background-size: 100%;
+  height: 113vh;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.title {
+  font-family: "Audiowide", cursive;
+  text-align: center;
+  padding-top: 5rem;
+  height: 10rem;
+}
+
+.jugadores {
+  height: 7rem;
+  font-size: 3em;
+  margin-top: 10rem;
+}
+#nombreJugador {
+  font-family: "Audiowide", cursive;
+  text-align: center;
+}
+
+.botonPlayers {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.botonPlayers a {
+  margin-right: 3rem;
+}
+
+.fcc-btn2 {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: "Audiowide", cursive;
+}
+
+.fcc-btn {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-family: "Audiowide", cursive;
+  margin-right: 24rem;
+  margin-left: 22rem;
+}
+
+.fcc-btn:hover {
+  background-color: #223094;
+}
+
+.fcc-btn2:hover {
+  background-color: #223094;
+}
+.botonBack {
+  display: flex;
+  justify-content: center;
+  margin-left: -3.7rem;
+  padding-top: 4rem;
+}
+
+.formDiv {
+  margin-top: 5rem;
+}
+
+.harryPotter {
+  position: absolute;
+  margin-left: 6rem;
+  margin-top: -4.5rem;
+}
+
+.harryPotter:hover {
+  display: none;
+}
+
+.draco {
+  position: absolute;
+  margin-left: 77rem;
+  margin-top: -4rem;
+  height: 50%;
+}
+
+.draco:hover {
+  display: none;
+}
+
+.magiaRaven {
+  position: absolute;
+  height: 16rem;
+  width: 18rem;
+  margin-left: 28rem;
+  margin-top: -21rem;
+  color: blueviolet, 0.3;
+}
+
+.magiaRaven:hover {
+  background-image: url(../images/luna3.png);
+  background-size: contain;
+  width: 12rem;
+  height: 14rem;
+  margin-left: 30rem;
+}
+
+.magiaCedric {
+  position: absolute;
+  height: 18rem;
+  width: 18rem;
+  margin-left: 50rem;
+  margin-top: -23rem;
+  color: blueviolet;
+}
+
+.magiaCedric:hover {
+  background-image: url(../images/cedricdrigo.png);
+  background-size: contain;
+  width: 10rem;
+  height: 13rem;
+  margin-left: 53rem;
+  margin-top: -21rem;
+}
