@@ -87,3 +87,11 @@ h1 {
   margin-left: 8rem;
   margin-top: 4rem;
 }
+
+.corbata {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  height: 15rem;
+  display: none;
+}
