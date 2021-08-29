@@ -88,10 +88,50 @@ h1 {
   margin-top: 4rem;
 }
 
+.hidden {
+  display: none;
+}
+
 .corbata {
   position: absolute;
   margin-top: 2rem;
   margin-left: 5rem;
   height: 15rem;
+  display: none;
+}
+
+.botonAzul {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 30.9rem;
+  position: absolute;
+  margin-top: 20.7rem;
+  display: none;
+}
+
+.botonAzulUp {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 30.9rem;
+  position: absolute;
+  margin-top: 15rem;
+  display: none;
+}
+
+.botonAzulRight {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 33.5rem;
+  position: absolute;
+  margin-top: 17.8rem;
+  display: none;
+}
+
+.botonAzulLeft {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 28.1rem;
+  position: absolute;
+  margin-top: 17.9rem;
   display: none;
 }
