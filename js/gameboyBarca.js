@@ -248,7 +248,7 @@ window.onload = () => {
     function dibujarDibujo() {
       if (score === 0) {
         dibujoCorbata.style.display = "none";
-      } else if (score % 4 === 0) {
+      } else if (score % 3 === 0) {
         dibujoCorbata.style.display = "block";
       } else dibujoCorbata.style.display = "none";
     }

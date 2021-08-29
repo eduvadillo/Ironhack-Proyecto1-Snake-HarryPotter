@@ -13,6 +13,10 @@ window.onload = () => {
     const nameSaved = document.querySelector("#nombreJugador");
     const modoOculto = document.querySelector("#hidden");
     const dibujoCorbata = document.querySelector("#hidden2");
+    const azulDown = document.querySelector("#Azuldown");
+    const azulUp = document.querySelector("#AzulUp");
+    const azulRight = document.querySelector("#AzulRight");
+    const azulLeft = document.querySelector("#AzulLeft");
 
     //Clase Snake
     class SnakePart {
@@ -243,50 +247,66 @@ window.onload = () => {
       }
     }
 
-    function modoOculto1() {
-      if (score > 8) {
-        modoOculto.classList.remove("hidden");
-      }
-    }
+     function modoOculto1() {
+       if (score > 8) {
+         modoOculto.classList.remove("hidden");
+       }
+     }
 
-    function dibujarDibujo() {
-      if (score === 0) {
-        dibujoCorbata.style.display = "none";
-      } else if (score % 4 === 0) {
-        dibujoCorbata.style.display = "block";
-      } else dibujoCorbata.style.display = "none";
-    }
+     function dibujarDibujo() {
+       if (score === 0) {
+         dibujoCorbata.style.display = "none";
+       } else if (score % 3 === 0) {
+         dibujoCorbata.style.display = "block";
+       } else dibujoCorbata.style.display = "none";
+     }
 
-    document.body.addEventListener("keydown", keyDown);
+     document.body.addEventListener("keydown", keyDown);
 
-    function keyDown(event) {
-      //arriba
-      if (event.keyCode == 38) {
-        if (yVelocity == 1) return;
-        yVelocity = -1;
-        xVelocity = 0;
-      }
-      //abajo
-      if (event.keyCode == 40) {
-        if (yVelocity == -1) return;
-        yVelocity = 1;
-        xVelocity = 0;
-      }
+     function keyDown(event) {
+       //arriba
+       if (event.keyCode == 38) {
+         if (yVelocity == 1) return;
+         yVelocity = -1;
+         xVelocity = 0;
+         azulUp.style.display = "block";
+         setTimeout(function () {
+           azulUp.style.display = "none";
+         }, 200);
+       }
+       //abajo
+       if (event.keyCode == 40) {
+         if (yVelocity == -1) return;
+         yVelocity = 1;
+         xVelocity = 0;
+         azulDown.style.display = "block";
+         setTimeout(function () {
+           azulDown.style.display = "none";
+         }, 200);
+       }
 
-      //izquierda
-      if (event.keyCode == 37) {
-        if (xVelocity == 1) return;
-        yVelocity = 0;
-        xVelocity = -1;
-      }
+       //izquierda
+       if (event.keyCode == 37) {
+         if (xVelocity == 1) return;
+         yVelocity = 0;
+         xVelocity = -1;
+         azulLeft.style.display = "block";
+         setTimeout(function () {
+           azulLeft.style.display = "none";
+         }, 200);
+       }
 
-      // derecha
-      if (event.keyCode == 39) {
-        if (xVelocity == -1) return;
-        yVelocity = 0;
-        xVelocity = 1;
-      }
-    }
+       // derecha
+       if (event.keyCode == 39) {
+         if (xVelocity == -1) return;
+         yVelocity = 0;
+         xVelocity = 1;
+         azulRight.style.display = "block";
+         setTimeout(function () {
+           azulRight.style.display = "none";
+         }, 200);
+       }
+     }
 
     drawGame();
   }

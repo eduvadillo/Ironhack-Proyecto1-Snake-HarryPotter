@@ -108,37 +108,37 @@ h1 {
 }
 
 .botonAzul {
-  height: 3rem;
-  width: 3rem;
-  margin-left: 30.9rem;
+  height: 2.15rem;
+  width: 2rem;
+  margin-left: 25.4rem;
   position: absolute;
-  margin-top: 20.7rem;
+  margin-top: 40.4rem;
   display: none;
 }
 
 .botonAzulUp {
-  height: 3rem;
-  width: 3rem;
-  margin-left: 30.9rem;
+  height: 2.2rem;
+  width: 2rem;
+  margin-left: 25.4rem;
   position: absolute;
-  margin-top: 15rem;
+  margin-top: 36.2rem;
   display: none;
 }
 
 .botonAzulRight {
-  height: 3rem;
-  width: 3rem;
-  margin-left: 33.5rem;
+  height: 2.15rem;
+  width: 2rem;
+  margin-left: 27.4rem;
   position: absolute;
-  margin-top: 17.8rem;
+  margin-top: 38.35rem;
   display: none;
 }
 
 .botonAzulLeft {
-  height: 3rem;
-  width: 3rem;
-  margin-left: 28.1rem;
+  height: 2.2rem;
+  width: 2rem;
+  margin-left: 23.6rem;
   position: absolute;
-  margin-top: 17.9rem;
+  margin-top: 38.35rem;
   display: none;
 }
